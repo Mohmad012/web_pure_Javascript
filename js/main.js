@@ -148,48 +148,6 @@ let landingPage = window.document.querySelector('.landing-page');
 let	imageArray  = ["landing1.jpeg" , "landing2.jpg", "landing3.jpg" , "landing4.jpg" , "landing5.jpg"];
 
 function randomizeimg(){
-
-	// if (innerWidth  <= 575 && backgroundOption === true) {
-
-	// 	console.log(innerWidth)
-
-	// 	backgroundInterval = setInterval(() => {
-
-	// 		// Get Random Image
-	// 		let	randomImages = Math.floor(Math.random() * imageArray2.length);
-
-	// 			landingPage.style.transition = '.8s';
-
-	// 			landingPage.style.backgroundSize = 'cover';
-
-	// 			// Change Background Image
-	// 			landingPage.style.backgroundImage = 'url("Images/imgsmall' + imageArray2[randomImages] + '")';
-
-	// 		},3000);
-
-	// 	}	
-
-
-
-	// if (innerWidth == 576 && innerWidth <= 750 && backgroundOption === true) {
-
-	// 	console.log(innerWidth)
-
-	// 	backgroundInterval = setInterval(() => {
-
-	// 		// Get Random Image
-	// 		let	randomImages = Math.floor(Math.random() * imageArray.length);
-
-	// 			landingPage.style.transition = '.8s';
-
-	// 			landingPage.style.backgroundSize = 'cover';
-
-	// 			// Change Background Image
-	// 			landingPage.style.backgroundImage = 'url("Images/imgmedium' + imageArray[randomImages] + '")';
-
-	// 		},3000);
-
-	// 	}
 		
 	if (backgroundOption === true) {
 
